@@ -1,0 +1,63 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+
+html{
+
+	overflow-x: hidden;
+}
+
+/* Banner Section Starts */
+
+.banner-img{
+
+	width: 100%;
+}
+
+
+.banner-img img{
+
+	width: 100%;
+}
+
+/* Banner Section Ends */
+
+
+
+/* Carousel Section Starts Here */
+
+#myslider .carousel-indicators [data-bs-target]{
+
+   width: 7px;
+   height: 7px;
+   border-radius: 50%;
+   background: #999;
+   border: none;
+   margin: 5px;
+}
+
+
+#myslider .carousel-indicators{
+
+	bottom: -50px;
+}
+
+#medal .owl-dot span,
+#grand .owl-dot span
+{
+
+	width: 7px !important;
+	height: 7px !important;
+	border-radius: 50%;
+	//margin: 7px;
+}
+
+
+
+/* Carousel Section Ends Here */
